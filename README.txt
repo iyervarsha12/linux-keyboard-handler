@@ -1,6 +1,6 @@
 VARSHA'S KEYBOARD HANDLER
 
-This handler, done as a part of CS552 in BU, replaces the Linux Keyboard driver (tested on Puppylinux version 2.6.32). 
+This handler, done as a part of CS552 in BU, replaces the Linux Keyboard driver (tested on Puppylinux version 2.6.33). 
 There is support for shift and capslock capitalisation, shift special characters, backspace and numlock. 
 It additionally supports recording entered characters. 
 
@@ -31,4 +31,5 @@ To understand IRQ requests:
 To understand kallsyms better, to get how to free the linux native keyboard handler: 
 	https://cleveruptime.com/docs/files/proc-kallsyms
 To understand using the address from kallsyms to call an unexported function, to get how to free the linux native keyboard handler:
+
 	https://stackoverflow.com/questions/22157442/how-can-i-reference-non-exported-linux-kernel-functions-from-a-kernel-module
